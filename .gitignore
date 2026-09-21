@@ -1,0 +1,30 @@
+# Private mail and generated archives
+MailArchive/
+snapshot/
+recovery/
+imports/
+*.eml
+*.msg
+*.pst
+*.ost
+*.zip
+*.ldb
+*.log
+*.sqlite*
+*.db
+
+# Credentials and machine-specific preferences
+.env
+.env.*
+!.env.example
+.archive-ai.json
+.archive-ai.tmp
+
+# Environments and build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+build/
+*.egg-info/
+.DS_Store

@@ -1,0 +1,2 @@
+./vendor/ccl_chromium_reader
+pypdf==6.19.0
